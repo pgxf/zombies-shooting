@@ -12,6 +12,8 @@ public class PlayerController : Photon.MonoBehaviour
 	public GameObject death;
 	public GameObject bullet;
 
+
+
 	[PunRPC]
 	public void takeDamage(int damage, int ownerId)
 	{
