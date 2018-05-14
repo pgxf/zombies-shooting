@@ -24,6 +24,7 @@ GameObject:
   - component: {fileID: 58643348373287822}
   - component: {fileID: 50361466803784510}
   - component: {fileID: 114953415372500486}
+  - component: {fileID: 114337569609025602}
   m_Layer: 0
   m_Name: bombman
   m_TagString: Untagged
@@ -96,6 +97,18 @@ Animator:
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
+--- !u!114 &114337569609025602
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1395024991615078}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7d4739f629ae94479b8aeb80d6119217, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bombPrefab: {fileID: 1193932556693836, guid: 69a74209d30af48be8a3c4dda8b1b846, type: 2}
 --- !u!114 &114953415372500486
 MonoBehaviour:
   m_ObjectHideFlags: 1

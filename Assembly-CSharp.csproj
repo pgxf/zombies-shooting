@@ -54,6 +54,8 @@
      <Compile Include="Assets\Bombbomb.cs" />
      <Compile Include="Assets\BombDrop.cs" />
      <Compile Include="Assets\destroyAfter.cs" />
+     <Compile Include="Assets\Explosion.cs" />
+     <Compile Include="Assets\gasbomb.cs" />
      <Compile Include="Assets\move.cs" />
      <Compile Include="Assets\Photon Unity Networking\Demos\Demo2DJumpAndRunWithPhysics\Scripts\Demo2DJumpAndRun.cs" />
      <Compile Include="Assets\Photon Unity Networking\Demos\Demo2DJumpAndRunWithPhysics\Scripts\JumpAndRunMovement.cs" />

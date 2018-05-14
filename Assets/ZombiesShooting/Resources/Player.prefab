@@ -138,7 +138,7 @@ MonoBehaviour:
   hit: {fileID: 0}
   death: {fileID: 0}
   bullet: {fileID: 0}
-  direction: {x: 0, y: 0}
+  bombPrefab: {fileID: 1193932556693836, guid: 69a74209d30af48be8a3c4dda8b1b846, type: 2}
 --- !u!212 &212096383717680160
 SpriteRenderer:
   m_ObjectHideFlags: 1

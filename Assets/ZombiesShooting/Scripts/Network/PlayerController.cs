@@ -11,7 +11,7 @@ public class PlayerController : Photon.MonoBehaviour
 	public GameObject hit;
 	public GameObject death;
 	public GameObject bullet;
-
+	public GameObject bombPrefab;
 
 
 	[PunRPC]
@@ -39,6 +39,12 @@ public class PlayerController : Photon.MonoBehaviour
 
 	public void Update()
 	{
+
+		if (Input.GetKeyDown (KeyCode.Space)) {
+			Vector2 pos = transform.position;
+			Instantiate (bombPrefab, pos, Quaternion.identity);
+		}
+
 		if (photonView.isMine)
 		{
 			float x = transform.position.x;
