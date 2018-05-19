@@ -13,9 +13,9 @@ public class PlayerController : Photon.MonoBehaviour
 	public GameObject bullet;
 
 	[PunRPC]
-	public void takeDamage(int damage, int ownerId)
+	public void takeDamage(int damage, int targetId)
 	{
-		if (photonView.isMine && ownerId != photonView.ownerId)
+		if (photonView.isMine && targetId == photonView.ownerId)
 		{
 			health -= damage;
 			PhotonNetwork.Instantiate("ParPlayerHitSplatter", transform.position, Utils.EffectRotation(), 0);
