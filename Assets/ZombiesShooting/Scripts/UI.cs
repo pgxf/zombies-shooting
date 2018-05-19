@@ -1,4 +1,4 @@
-// --------------------------------------------------------------------------------------------------------------------
+﻿// --------------------------------------------------------------------------------------------------------------------
 // <copyright file="WorkerMenu.cs" company="Exit Games GmbH">
 //   Part of: Photon Unity Networking
 // </copyright>
@@ -9,7 +9,7 @@ using UnityEngine;
 using Random = UnityEngine.Random;
 using ExitGames.Client.Photon;
 
-public class WorkerMenu : MonoBehaviour
+public class UI : MonoBehaviour
 {
 	public GUISkin Skin;
 	public Vector2 WidthAndHeight = new Vector2(600, 400);

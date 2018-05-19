@@ -36,8 +36,7 @@ public class BulletController : Photon.MonoBehaviour
 		if (other.gameObject.tag == "Player")
 		{
 			PhotonView otherPhotonView = other.gameObject.GetComponent<PhotonView>();
-			Debug.Log(photonView.ownerId + " -> " + otherPhotonView.ownerId);
-			PhotonNetwork.RPC(otherPhotonView, "takeDamage", PhotonTargets.All, false, 1, photonView.ownerId);
+			PhotonNetwork.RPC(otherPhotonView, "takeDamage", PhotonTargets.All, false, 1, otherPhotonView.ownerId);
 			PhotonNetwork.Destroy(gameObject);
 		}
 	}
