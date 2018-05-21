@@ -31,10 +31,10 @@ public class GUIf : MonoBehaviour
 			GUILayout.Label(player.ToString());
 		}
 
-		if (GUILayout.Button("Leave"))
-		{
-			PhotonNetwork.LeaveRoom();
-		}
+//		if (GUILayout.Button("Leave"))
+//		{
+//			PhotonNetwork.LeaveRoom();
+//		}
 		GUILayout.EndArea();
 	}
 }

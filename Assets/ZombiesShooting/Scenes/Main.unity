@@ -250,9 +250,8 @@ GameObject:
   - component: {fileID: 2014566952}
   - component: {fileID: 2014566951}
   - component: {fileID: 2014566950}
-  - component: {fileID: 2014566954}
   - component: {fileID: 2014566955}
-  - component: {fileID: 2014566956}
+  - component: {fileID: 2014566954}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -334,10 +333,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d87f1d679c405614c9971e2f0e3157ab, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  connected: 0
-  version: 
-  roomName: ZombiesShooting
-  currentPlayer: {fileID: 0}
+  currentPlayer: {fileID: 1012868786963008, guid: d4fd1f17705625243b0c5093a7ed1aac,
+    type: 2}
 --- !u!114 &2014566955
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -364,15 +361,3 @@ MonoBehaviour:
   instantiationId: 1
   currentMasterID: -1
   isRuntimeInstantiated: 0
---- !u!114 &2014566956
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 2014566949}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 321c592dfcb49cd458c8f2cbe497513d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Skin: {fileID: 11400000, guid: 0a36872c871b46d4ea5e4e064f3bf975, type: 2}
