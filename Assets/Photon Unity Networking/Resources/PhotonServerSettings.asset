@@ -44,4 +44,5 @@ MonoBehaviour:
   - TaggedPlayer
   - TakeDamage
   - takeDamage
+  - destroy
   DisableAutoOpenWizard: 1

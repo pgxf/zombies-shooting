@@ -22,7 +22,7 @@ GameObject:
   - component: {fileID: 61083251433810272}
   m_Layer: 0
   m_Name: stone_l_u_r
-  m_TagString: Untagged
+  m_TagString: floor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -38,7 +38,7 @@ GameObject:
   - component: {fileID: 61979754545594682}
   m_Layer: 0
   m_Name: stone_r_u_l
-  m_TagString: Untagged
+  m_TagString: floor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -54,7 +54,7 @@ GameObject:
   - component: {fileID: 61816316757268288}
   m_Layer: 0
   m_Name: tree_r
-  m_TagString: Untagged
+  m_TagString: floor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -70,7 +70,7 @@ GameObject:
   - component: {fileID: 68293297339471998}
   m_Layer: 0
   m_Name: stone_l_m
-  m_TagString: Untagged
+  m_TagString: floor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -88,7 +88,7 @@ GameObject:
   - component: {fileID: 50917705990594760}
   m_Layer: 0
   m_Name: GameMain
-  m_TagString: Untagged
+  m_TagString: floor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -104,7 +104,7 @@ GameObject:
   - component: {fileID: 68904818759560534}
   m_Layer: 0
   m_Name: stone_l_u
-  m_TagString: Untagged
+  m_TagString: floor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -120,7 +120,7 @@ GameObject:
   - component: {fileID: 61257154500842418}
   m_Layer: 0
   m_Name: tree_l
-  m_TagString: Untagged
+  m_TagString: floor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -136,7 +136,7 @@ GameObject:
   - component: {fileID: 68257861284422302}
   m_Layer: 0
   m_Name: stone_r_u
-  m_TagString: Untagged
+  m_TagString: floor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -152,7 +152,7 @@ GameObject:
   - component: {fileID: 68686831649787764}
   m_Layer: 0
   m_Name: stone_r_m
-  m_TagString: Untagged
+  m_TagString: floor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295

@@ -7,22 +7,23 @@ public class PlayerController : Photon.MonoBehaviour
 	private Vector3 currentPosition;
 	private Quaternion currentRotation;
 
-	public int health = 10;
-	public GameObject hit;
-	public GameObject death;
-	public GameObject bullet;
+	private int health = 2;
 
-	[PunRPC]
-	public void takeDamage(int damage, int targetId)
+	public void OnCollisionEnter2D(Collision2D other)
 	{
-		if (photonView.isMine && targetId == photonView.ownerId)
+		if (photonView.isMine && other.gameObject.tag == "bullet")
 		{
-			health -= damage;
-			PhotonNetwork.Instantiate("ParPlayerHitSplatter", transform.position, Utils.EffectRotation(), 0);
-			if (health < 1)
+			PhotonView pv = other.gameObject.GetComponent<PhotonView>();
+
+			if (pv.ownerId != photonView.ownerId)
 			{
-				PhotonNetwork.Instantiate("ParPlayerDeathSplatter", transform.position, Utils.EffectRotation(), 0);
-				PhotonNetwork.Destroy(gameObject);
+				health -= 1;
+				PhotonNetwork.Instantiate("ParPlayerHitSplatter", transform.position, Utils.EffectRotation(), 0);
+				if (health < 1)
+				{
+					PhotonNetwork.Instantiate("ParPlayerDeathSplatter", transform.position, Utils.EffectRotation(), 0);
+					PhotonNetwork.Destroy(gameObject);
+				}
 			}
 		}
 	}
