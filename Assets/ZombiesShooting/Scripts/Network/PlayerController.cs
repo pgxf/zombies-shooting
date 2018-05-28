@@ -14,6 +14,7 @@ public class PlayerController : Photon.MonoBehaviour
 	public GameObject bombPrefab;
 
 
+
 	[PunRPC]
 	public void takeDamage(int damage, int ownerId)
 	{
